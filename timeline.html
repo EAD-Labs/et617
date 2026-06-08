@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ET617 semester timeline, milestones, and deliverables.">
+  <title>Timeline · ET617</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><img src="logo/Et-Logo-2.png" alt="ET logo"><span><strong>ET617</strong><small>Educational App Design</small></span></a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
+      <label class="nav-button" for="nav-toggle" aria-label="Toggle navigation menu"><span aria-hidden="true"></span></label>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home/About</a></li><li><a href="timeline.html" aria-current="page">Timeline</a></li><li><a href="students.html">Students</a></li><li><a href="clients.html">Client</a></li><li><a href="projects.html">Project</a></li><li><a href="innoaied.html">INNOAIED</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero"><div class="container"><p class="eyebrow">Semester plan</p><h1>Weekly timeline, milestones, and deliverables.</h1><p class="lead">A reusable phase-based course plan, from partner onboarding to final showcase. The first implementation was the 2025-2 Spring Semester run.</p></div></section>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Semester Phases</h2>
+          <p>The course moves from discovery to working prototype, then into iterative development, stabilization, and final showcase.</p>
+        </div>
+        <div class="phase-strip" aria-label="Semester phase overview">
+          <article><strong>0</strong><span>Preparation</span><p>Client briefs, course setup, GitHub organization.</p></article>
+          <article><strong>1</strong><span>Discovery</span><p>Team formation, client meetings, requirements.</p></article>
+          <article><strong>2</strong><span>Prototype</span><p>Early build, review, feedback, revised backlog.</p></article>
+          <article><strong>3</strong><span>Delivery</span><p>Implementation, testing, documentation, showcase.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Gantt View</h2>
+          <p>A compact planning map of major activities across the semester. Scroll horizontally on small screens.</p>
+        </div>
+        <div class="gantt-wrap" role="region" aria-label="ET617 semester Gantt chart" tabindex="0">
+          <div class="gantt">
+            <div class="gantt-corner">Activity</div>
+            <div class="gantt-week">Pre</div>
+            <div class="gantt-week">W1</div>
+            <div class="gantt-week">W2</div>
+            <div class="gantt-week">W3</div>
+            <div class="gantt-week">W4</div>
+            <div class="gantt-week">W5</div>
+            <div class="gantt-week">W6</div>
+            <div class="gantt-week">W7</div>
+            <div class="gantt-week">Mid</div>
+            <div class="gantt-week">W8</div>
+            <div class="gantt-week">W9</div>
+            <div class="gantt-week">W10</div>
+            <div class="gantt-week">W11</div>
+            <div class="gantt-week">W12</div>
+            <div class="gantt-week">End</div>
+
+            <div class="gantt-label" style="grid-row: 2;">Setup and orientation</div>
+            <div class="gantt-bar setup" style="grid-row: 2; grid-column: 2 / span 3;">Briefs, setup, foundations</div>
+
+            <div class="gantt-label" style="grid-row: 3;">Team and discovery</div>
+            <div class="gantt-bar discovery" style="grid-row: 3; grid-column: 5 / span 3;">Teams, clients, requirements</div>
+
+            <div class="gantt-label" style="grid-row: 4;">Prototype sprint</div>
+            <div class="gantt-bar prototype" style="grid-row: 4; grid-column: 8 / span 2;">Prototype build</div>
+
+            <div class="gantt-label" style="grid-row: 5;">Formal review</div>
+            <div class="gantt-milestone" style="grid-row: 5; grid-column: 10;">Review</div>
+
+            <div class="gantt-label" style="grid-row: 6;">Development sprints</div>
+            <div class="gantt-bar delivery" style="grid-row: 6; grid-column: 11 / span 3;">Core implementation</div>
+
+            <div class="gantt-label" style="grid-row: 7;">Stabilization</div>
+            <div class="gantt-bar stabilize" style="grid-row: 7; grid-column: 14 / span 2;">Testing, docs, handover</div>
+
+            <div class="gantt-label" style="grid-row: 8;">Final showcase</div>
+            <div class="gantt-milestone final" style="grid-row: 8; grid-column: 16;">Demo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Milestones and Deliverables</h2>
+          <p>Detailed checkpoints for students, mentors, clients, and evaluators.</p>
+        </div>
+        <div class="milestone-grid">
+          <article class="milestone-card"><span>Pre-semester</span><h3>Client and project onboarding</h3><p>Identify partner organizations, define project briefs, clarify IPR/open-source expectations, and prepare the EAD-Labs GitHub organization.</p><strong>Output: project briefs</strong></article>
+          <article class="milestone-card"><span>Week 1</span><h3>Course orientation</h3><p>Introduce course goals, evaluation structure, team workflow, WhatsApp community, GitHub practices, and examples of past educational apps.</p><strong>Output: course setup</strong></article>
+          <article class="milestone-card"><span>Week 2</span><h3>Foundations workshop</h3><p>Discuss agile methods, educational technology design, security expectations, accessibility, ethics, responsible AI, and stakeholder communication.</p><strong>Output: shared working norms</strong></article>
+          <article class="milestone-card"><span>Week 3</span><h3>Team formation and project selection</h3><p>Students form teams, review project briefs, meet mentors, choose collaboration tools, and create repository structures.</p><strong>Output: team and repo setup</strong></article>
+          <article class="milestone-card"><span>Weeks 4-5</span><h3>Requirements and design direction</h3><p>Teams conduct client meetings, document user needs, write meeting minutes, define acceptance criteria, and submit a requirements report.</p><strong>Output: requirements report</strong></article>
+          <article class="milestone-card"><span>Weeks 6-7</span><h3>Prototype sprint</h3><p>Build low-fidelity and early working prototypes, log issues, gather feedback, and prepare a short design rationale.</p><strong>Output: prototype demo</strong></article>
+          <article class="milestone-card"><span>Mid-semester</span><h3>Formal review</h3><p>Demonstrate the prototype, present risks, receive evaluator feedback, update the backlog, and revise the development plan.</p><strong>Output: review presentation</strong></article>
+          <article class="milestone-card"><span>Weeks 8-10</span><h3>Iterative development</h3><p>Run weekly sprints, implement core features, test with users where feasible, and review security, data, and accessibility concerns.</p><strong>Output: sprint builds</strong></article>
+          <article class="milestone-card"><span>Weeks 11-12</span><h3>Stabilization and documentation</h3><p>Improve usability, fix defects, prepare deployment notes, write technical documentation, and complete the final report draft.</p><strong>Output: final report draft</strong></article>
+          <article class="milestone-card"><span>End semester</span><h3>Final showcase</h3><p>Submit final report, repository, presentation, reflection, client handover package, and demonstrate the educational app.</p><strong>Output: final demo and handover</strong></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><img src="logo/iitb logo dark blue and white.png" alt="IIT Bombay logo"><div><strong>ET617 — Educational App Design</strong><p>Centre for Educational Technology, IIT Bombay</p></div></div><p><a href="index.html">Home/About</a> · <a href="innoaied.html">INNOAIED</a></p></div></footer>
+</body>
+</html>
